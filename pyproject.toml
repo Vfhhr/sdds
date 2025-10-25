@@ -1,0 +1,13 @@
+[project]
+name = "games_project_svirko"
+version = "0.1.0"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+vd-games = "VD_games.scripts.VD_main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["VD_games"]
