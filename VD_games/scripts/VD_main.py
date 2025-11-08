@@ -1,5 +1,7 @@
+from VD_games.cli import welcome_user
+
 def main():
-    print("Привет! Это моя первая программа на Python!")
+    welcome_user()
 
 if __name__ == "__main__":
     main()

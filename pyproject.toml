@@ -1,6 +1,11 @@
 [project]
 name = "games_project_svirko"
-version = "0.1.0"
+version = "0.2.0"
+description = "Проект с играми для практической работы"
+requires-python = ">=3.8"
+dependencies = [
+    "prompt>=0.4.1",
+]
 
 [build-system]
 requires = ["hatchling"]
